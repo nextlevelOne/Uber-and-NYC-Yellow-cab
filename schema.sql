@@ -26,7 +26,8 @@ CREATE TABLE IF NOT EXISTS TAXI_TRIPS (
 );
 
 CREATE TABLE IF NOT EXISTS UBER_TRIPS (
-   key TEXT PRIMARY KEY,
+   record_id INTEGER PRIMARY KEY AUTOINCREMENT ,
+   key TEXT,
    pickup_longitude FLOAT,
    pickup_latitude FLOAT,
    dropoff_longitude FLOAT,
