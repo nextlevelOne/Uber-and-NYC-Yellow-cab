@@ -18,6 +18,7 @@ CREATE TABLE IF NOT EXISTS DAILY_WEATHER (
 CREATE TABLE IF NOT EXISTS TAXI_TRIPS (
    record_id INTEGER PRIMARY KEY AUTOINCREMENT ,
    vendor_id TEXT,
+   tip_amount FLOAT,
    total_amount FLOAT,
    distance FLOAT,
    passenger_count INTEGER,
@@ -26,7 +27,7 @@ CREATE TABLE IF NOT EXISTS TAXI_TRIPS (
 );
 
 CREATE TABLE IF NOT EXISTS UBER_TRIPS (
-   record_id INTEGER PRIMARY KEY AUTOINCREMENT ,
+   ecord_id INTEGER PRIMARY KEY AUTOINCREMENT,
    key TEXT,
    pickup_longitude FLOAT,
    pickup_latitude FLOAT,
