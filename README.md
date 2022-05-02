@@ -8,7 +8,7 @@ This is final project based on 4 dataset which is Uber data in NewYork City, yel
 4.data visualization: visualize the 4 dataset to understand the real life problems
 
 
-project group name: 
+project group name: group ml 
 
 
 UNIs: [sm4964,yl4940]
