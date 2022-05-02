@@ -1,0 +1,8 @@
+1. install Geopandas using Anaconda
+conda install geopandas
+
+2. install defusedxml using Anaconda
+pip install defusedxml
+
+3. install keplergl using Jupyter Notebook
+pip install keplergl
